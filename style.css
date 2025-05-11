@@ -19,6 +19,37 @@ flex-direction: column;
 align-items: center;
 gap: 40px;
 }
+.heading {
+    color: #003366; 
+    font-size: 45px; 
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; 
+    font-weight: bold;
+    margin-top: 20px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.heading i {
+  margin-right: 10px; 
+  font-size: 35px; 
+  color: #4CAF50; 
+}
+
+.heading:hover {
+  color: #4CAF50; 
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out; 
+}
+
+  @media (max-width:768px) {
+    .heading{
+        font-size: 22px;
+    }
+    .heading i{
+        font-size: 20px;
+    }
+  }
 .inputbox,.resultbox{
     display: flex;
     flex-direction: column;
@@ -28,7 +59,7 @@ gap: 40px;
 .fromCurrency,.toCurrency,.amount,.result{
 
     width: 500px;          /* Wider */
-    height: 80px;          /* Taller */
+    height: 60px;          /* Taller */
     font-size: 24px;       /* Bigger text */
     padding: 10px 15px;    /* Internal spacing */
     border-radius: 8px;    /* Rounded corners */
@@ -36,6 +67,7 @@ gap: 40px;
     border: 1px solid #81d4fa;
     background-color:  #b9e0f3;
 }
+
 @media (max-width:768px) {
     .fromCurrency,.toCurrency,.amount,.result{
 
