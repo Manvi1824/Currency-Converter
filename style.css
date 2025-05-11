@@ -58,12 +58,11 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 }
 .fromCurrency,.toCurrency,.amount,.result{
 
-    width: 500px;          /* Wider */
-    height: 60px;          /* Taller */
-    font-size: 24px;       /* Bigger text */
-    padding: 10px 15px;    /* Internal spacing */
-    border-radius: 8px;    /* Rounded corners */
-    /* border: 2px solid #ccc; */
+    width: 500px;         
+    height: 60px;        
+    font-size: 24px;      
+    padding: 10px 15px;    
+    border-radius: 8px;  
     border: 1px solid #81d4fa;
     background-color:  #b9e0f3;
 }
