@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+  }
+
+.currency-converter{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+}
+.inputbox,.resultbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.fromCurrency,.toCurrency,.amount,.result{
+
+    width: 500px;          /* Wider */
+    height: 80px;          /* Taller */
+    font-size: 24px;       /* Bigger text */
+    padding: 10px 15px;    /* Internal spacing */
+    border-radius: 8px;    /* Rounded corners */
+    /* border: 2px solid #ccc; */
+    border: 1px solid #81d4fa;
+    background-color:  #b9e0f3;
+}
+@media (max-width:768px) {
+    .fromCurrency,.toCurrency,.amount,.result{
+
+        width: 250px;          
+        height: 80px;         
+        font-size: 18px;      
+        padding: 10px 15px;   
+        border-radius: 8px;    
+  
+        border: 1px solid #81d4fa;
+        background-color:  #b9e0f3;
+    }
+}
+.fromCurrency:focus, .amount:focus {
+    border-color: #007BFF;
+  }
+.toCurrency:focus, .amount:focus {
+    border-color: #007BFF; 
+  }
+
+  .btn{
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background: #b9e0f3;
+    color: #007BFF;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+
+  
